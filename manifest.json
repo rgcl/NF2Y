@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "NF2Y | No FB to Youtube",
+    "description": "See youtube embedded videos without giving any Facebook permissions.",
+    "version": "1.0",
+    "permissions": ["<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": "no-fb.png"
+    }
+}
