@@ -6,7 +6,7 @@ un video hay que dar un like o compartir en Facebook.
 
 Esta extensión para Chrome simplemente coloca un botón en la barra superior el cual
 al recibir un click busca las imagenes de Youtube en la página actual y las reemplaza por los videos, de esa
-forma se salta la restricción en algunos sitios, como [plunkly.com](http://www.plunkly.com/).
+forma se salta la restricción en algunos sitios, como [plunkly.com](http://www.plunkly.com/), [fantavideo.org](http://www.fantavideo.org/) etc.
 
 #LICENCIA
 

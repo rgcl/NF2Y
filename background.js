@@ -4,8 +4,13 @@ chrome.browserAction.onClicked.addListener(function(tab) {
         file: 'no-fb.js',
         allFrames: true
     });
-    chrome.browserAction.setBadgeText({ text: 'Ok' });
-    setTimeout(function() {
-        chrome.browserAction.setBadgeText({ text: '' });
-    }, 3000);
+});
+
+chrome.runtime.onMessage.addListener(function(message) {
+    chrome.browserAction.setBadgeText({ text: message });
+    if(message === 'ok') {
+        setTimeout(function() {
+            chrome.browserAction.setBadgeText({ text: '' });
+        }, 3000);
+    }
 });
